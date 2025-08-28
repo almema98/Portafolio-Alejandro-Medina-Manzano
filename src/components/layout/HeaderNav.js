@@ -5,7 +5,7 @@ export const HeaderNav = () => {
   return (
     <header className='header'>
         <div className='logo'>
-            <span>A</span>
+            <span className='logo-A'>A</span>
             <h3>Alejandro Medina Manzano</h3>
         </div>
         <nav>
@@ -17,7 +17,7 @@ export const HeaderNav = () => {
                     <NavLink to='/portafolio' className={({isActive}) => isActive ? "active" : ""}>Portafolio</NavLink>
                 </li>
                 <li>
-                    <NavLink to='/servicios' className={({isActive}) => isActive ? "active" : ""}>Servicios</NavLink>
+                    <NavLink to='/tecnologias' className={({isActive}) => isActive ? "active" : ""}>Tecnologías</NavLink>
                 </li>
                 <li>
                     <NavLink to='/curriculum' className={({isActive}) => isActive ? "active" : ""}>Curriculum</NavLink>

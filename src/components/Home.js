@@ -1,23 +1,33 @@
 import React from 'react'
 import { Link } from 'react-router'
 import { ProjectList } from './ProjectList'
+import projectIcon from '../assets/icons/projects-icon.png'
 
 export const Home = () => {
 	return (
 		<div className='home'>
-			<h1>
-				Hola, soy <strong>Alejandro Medina</strong> y soy Desarrollador Web en Granada.
-				Ofrezco mis servicios de <strong>programación</strong> y <strong>desarrollo</strong> en
-				todo tipo de proyectos web.
-			</h1>
+			<div className='introduction-home'>
+				<div className='container-image'>
+					<img src='/images/foto_personal.JPG' className='special-border' alt='alejandro medina manzano' />
+				</div>
+				<h1>
+					Soy <strong>Alejandro Medina</strong>, ingeniero informático residente en Granada (España),
+					especializado en el <strong>desarrollo de software</strong> con un enfoque particular
+					en el <strong>desarrollo web</strong>.<br/><br/>
+					Me apasiona crear soluciones prácticas, intuitivas y eficientes, cuidando la experiencia del usuario. Mi objetivo es seguir creciendo como profesional, aplicando mis
+					conocimientos a través de nuevos retos dentro de un equipo. 
+				</h1>
+			</div>
 
 			<h2 className='title'>
-				Te ayudo a crear tu sitio o aplicación web, tener más
-				visibilidad y relevancia en Internet. <Link to="/contacto">Contacta conmigo.</Link>
+				Actualmente estoy abierto a nuevas oportunidades profesionales. <Link to="/contacto">Contacta conmigo</Link>
 			</h2>
 
 			<section className='last-works'>
-				<h2 className='heading'>Algunos de mis proyectos</h2>
+				<div className='title-container'>
+					<img src={projectIcon} className='icon' alt='icon'/>
+					<h2 className='heading'>Algunos de mis proyectos</h2>
+				</div>
 				<p>Estos son algunos de mis trabajos de desarrollo web</p>
 
 				<ProjectList limit="3" />

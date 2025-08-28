@@ -16,14 +16,14 @@ export const Project = () => {
     return (
         <section className='page page-project'>
             <div className='mask'>
-                <img src={"/images/" + project.id+".png"} alt='proyect'/>
+                <img src={"/images/projects/" + project.id+".png"} alt='proyect'/>
             </div>
 
             <h1 className='heading'>Proyecto: {project.name}</h1>
             
-            <p>{project.technologies}</p>
+            <span>{project.technologies}</span>
             
-            <p>{project.description}</p>
+            <p className='description-field'>{project.description}</p>
             
             <a href={"https://" + project.url} target="_blank" rel='noreferrer'>Ir al proyecto</a>
         </section>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Routes, Route, BrowserRouter, Navigate } from 'react-router';
 import { Home } from '../components/Home';
 import { Portfolio } from '../components/Portfolio';
-import { Services } from '../components/Services';
+import { Skills } from '../components/Skills';
 import { Resume } from '../components/Resume';
 import { Contact } from '../components/Contact';
 import { HeaderNav } from '../components/layout/HeaderNav';
@@ -21,7 +21,7 @@ export const MyRoutes = () => {
 					<Route path='/' element={<Navigate to='/inicio' />} />
 					<Route path='/inicio' element={<Home />} />
 					<Route path='/portafolio' element={<Portfolio />} />
-					<Route path='/servicios' element={<Services />} />
+					<Route path='/tecnologias' element={<Skills />} />
 					<Route path='/curriculum' element={<Resume />} />
 					<Route path='/contacto' element={<Contact />} />
 					<Route path='/proyecto/:id' element={<Project />} />

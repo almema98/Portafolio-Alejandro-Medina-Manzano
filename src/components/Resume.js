@@ -1,22 +1,23 @@
 import React from 'react'
+import resumeIcon from '../assets/icons/resume-icon.png'
+import { Link } from 'react-router'
 
 export const Resume = () => {
   return (
     <div className='page'>
-			<h1 className='heading'>Currículum</h1>
+			<div className='title-container-head'>
+				<img src={resumeIcon} className='icon-title' alt='icon' />
+				<h1 className='heading'>Currículum Vitae</h1>
+			</div>
 
-			<h2>Experiencia</h2>
-			<ul>
-				<li>Desarrollador web - 2023 a 2025</li>
-			</ul>
-
-			<h2>Conocimientos</h2>
-
-			<h2>Educación</h2>
-
-			<h2>Proyectos personales</h2>
-
-			<h2>Otros</h2>
+			<section className='resume'>
+				<div className='resume-container'>
+					<img src='/images/curriculum.png' className='special-border' alt='cv' />
+				</div>
+				<Link to={'https://www.google.es'} className='link-download-resume'>
+					<button className='button-resume'>Descargar CV</button>
+				</Link>
+			</section>
 		</div>
   )
 }
