@@ -1,3 +1,3 @@
 export const Global  = {
-    mediaPath: "../assets/images/"
+    mediaPath: "/assets/images/"
 }

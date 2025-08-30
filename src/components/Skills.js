@@ -5,7 +5,7 @@ import { Global } from '../helpers/Global';
 
 export const Skills = () => {
 
-	const pathImages = Global.mediaPath + "projects/";
+	const pathImages = Global.mediaPath + "skills/";
 
 	return (
 		<div className='page'>
@@ -17,7 +17,7 @@ export const Skills = () => {
 			<section className='skills'>
 				{skills.map(skill => (
 					<div className='skill-container  special-border'>
-						<img src={'../assets/images/skills/' + skill.file} className='icon-skill' alt='skill' />
+						<img src={pathImages + skill.file} className='icon-skill' alt='skill' />
 						<span className='label-skill'>{skill.name}</span>
 					</div>
 				))}
