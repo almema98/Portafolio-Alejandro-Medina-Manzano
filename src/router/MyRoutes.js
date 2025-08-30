@@ -25,6 +25,7 @@ export const MyRoutes = () => {
 					<Route path='/curriculum' element={<Resume />} />
 					<Route path='/contacto' element={<Contact />} />
 					<Route path='/proyecto/:id' element={<Project />} />
+					<Route path='/Portafolio-Alejandro-Medina-Manzano' element={<Navigate to='/inicio' />} />
 					<Route path='/error' element={
 						<div className='page'>
 							<h1 className='heading'>Error 404</h1>

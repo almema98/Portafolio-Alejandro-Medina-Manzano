@@ -1,10 +1,11 @@
 import React from 'react'
 import { projects } from '../data/projects';
 import { Link } from 'react-router';
+import { Global } from '../helpers/Global';
 
 export const ProjectList = ({limit}) => {
 
-    const projectImagesPath = "../../public/images/projects/";
+    const projectImagesPath = Global.mediaPath + "projects/";
 
     return (
         <section className='projects'>

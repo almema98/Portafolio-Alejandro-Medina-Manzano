@@ -2,13 +2,14 @@ import React from 'react'
 import { Link } from 'react-router'
 import { ProjectList } from './ProjectList'
 import projectIcon from '../assets/icons/projects-icon.png'
+import myPhoto from '../assets/images/foto_personal.JPG'
 
 export const Home = () => {
 	return (
 		<div className='home'>
 			<div className='introduction-home'>
 				<div className='container-image'>
-					<img src='../../public/images/foto_personal.JPG' className='special-border' alt='alejandro medina manzano' />
+					<img src={myPhoto} className='special-border' alt='alejandro medina manzano' />
 				</div>
 				<h1>
 					Soy <strong>Alejandro Medina</strong>, ingeniero informático residente en Granada (España),

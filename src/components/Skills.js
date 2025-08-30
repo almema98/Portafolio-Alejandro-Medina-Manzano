@@ -1,10 +1,11 @@
 import React from 'react'
-import skillsIcon from '../assets/icons/skills-icon.png'
+import skillsIcon from '../assets/icons/skills-icon.png';
 import { skills } from '../data/skills';
+import { Global } from '../helpers/Global';
 
 export const Skills = () => {
 
-	const pathImages = "../../public/images/skills/";
+	const pathImages = Global.mediaPath + "projects/";
 
 	return (
 		<div className='page'>

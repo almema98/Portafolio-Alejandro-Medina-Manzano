@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router'
 import { projects } from '../data/projects';
+import { Global } from '../helpers/Global';
 
 export const Project = () => {
 
@@ -16,7 +17,7 @@ export const Project = () => {
     return (
         <section className='page page-project'>
             <div className='mask'>
-                <img src={"../../public/images/projects/" + project.id+".png"} alt='proyect'/>
+                <img src={Global.mediaPath + "projects/" + project.id+".png"} alt='proyect'/>
             </div>
 
             <h1 className='heading'>Proyecto: {project.name}</h1>

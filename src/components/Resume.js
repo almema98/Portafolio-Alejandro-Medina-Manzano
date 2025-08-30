@@ -1,6 +1,7 @@
 import React from 'react'
 import resumeIcon from '../assets/icons/resume-icon.png'
 import { Link } from 'react-router'
+import { Global } from '../helpers/Global'
 
 export const Resume = () => {
   return (
@@ -12,7 +13,7 @@ export const Resume = () => {
 
 			<section className='resume'>
 				<div className='resume-container'>
-					<img src='../../public/images/curriculum.png' className='special-border' alt='cv' />
+					<img src={Global.mediaPath + '/curriculum.png'} className='special-border' alt='cv' />
 				</div>
 
 				<Link to={'https://www.google.es'} className='link-download-resume'>
