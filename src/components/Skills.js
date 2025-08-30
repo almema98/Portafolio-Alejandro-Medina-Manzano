@@ -4,7 +4,7 @@ import { skills } from '../data/skills';
 
 export const Skills = () => {
 
-	const pathImages = "/images/skills/";
+	const pathImages = "../../public/images/skills/";
 
 	return (
 		<div className='page'>

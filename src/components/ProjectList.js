@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 export const ProjectList = ({limit}) => {
 
-    const projectImagesPath = "/images/projects/";
+    const projectImagesPath = "../../public/images/projects/";
 
     return (
         <section className='projects'>

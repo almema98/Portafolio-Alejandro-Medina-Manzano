@@ -8,7 +8,7 @@ export const Home = () => {
 		<div className='home'>
 			<div className='introduction-home'>
 				<div className='container-image'>
-					<img src='/images/foto_personal.JPG' className='special-border' alt='alejandro medina manzano' />
+					<img src='../../public/images/foto_personal.JPG' className='special-border' alt='alejandro medina manzano' />
 				</div>
 				<h1>
 					Soy <strong>Alejandro Medina</strong>, ingeniero informático residente en Granada (España),

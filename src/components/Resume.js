@@ -12,7 +12,7 @@ export const Resume = () => {
 
 			<section className='resume'>
 				<div className='resume-container'>
-					<img src='/images/curriculum.png' className='special-border' alt='cv' />
+					<img src='../../public/images/curriculum.png' className='special-border' alt='cv' />
 				</div>
 
 				<Link to={'https://www.google.es'} className='link-download-resume'>
