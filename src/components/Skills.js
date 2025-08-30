@@ -17,7 +17,7 @@ export const Skills = () => {
 			<section className='skills'>
 				{skills.map(skill => (
 					<div className='skill-container  special-border'>
-						<img src={pathImages + skill.file} className='icon-skill' alt='skill' />
+						<img src={'../assets/images/skills/' + skill.file} className='icon-skill' alt='skill' />
 						<span className='label-skill'>{skill.name}</span>
 					</div>
 				))}

@@ -29,6 +29,7 @@ export const MyRoutes = () => {
 					<Route path='/error' element={
 						<div className='page'>
 							<h1 className='heading'>Error 404</h1>
+							<Navigate to='/inicio'>Volver a la página principal</Navigate>
 						</div>}
 					/>
 					<Route path='*' element={<Navigate to="/error" />} />

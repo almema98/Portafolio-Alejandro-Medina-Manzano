@@ -17,7 +17,7 @@ export const Project = () => {
     return (
         <section className='page page-project'>
             <div className='mask'>
-                <img src={Global.mediaPath + "projects/" + project.id+".png"} alt='proyect'/>
+                <img src={Global.mediaPath + "projects/" + project.id + ".png"} alt='project'/>
             </div>
 
             <h1 className='heading'>Proyecto: {project.name}</h1>
