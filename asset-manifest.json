@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portafolio-Alejandro-Medina-Manzano/static/css/main.7d713fc2.css",
-    "main.js": "/Portafolio-Alejandro-Medina-Manzano/static/js/main.66bfd2a4.js",
-    "static/media/github-contact.png": "/Portafolio-Alejandro-Medina-Manzano/static/media/github-contact.f3d873d71aa989badfd2.png",
-    "static/media/projects-icon.png": "/Portafolio-Alejandro-Medina-Manzano/static/media/projects-icon.1d135e03df598b40d71d.png",
-    "static/media/portfolio-icon.png": "/Portafolio-Alejandro-Medina-Manzano/static/media/portfolio-icon.f2b7104e2a967544e1d9.png",
-    "static/media/linkedin-contact.png": "/Portafolio-Alejandro-Medina-Manzano/static/media/linkedin-contact.1b9851dbcabb60a819e0.png",
-    "static/media/skills-icon.png": "/Portafolio-Alejandro-Medina-Manzano/static/media/skills-icon.a0fcde07d4b512049540.png",
-    "static/media/contact-icon.png": "/Portafolio-Alejandro-Medina-Manzano/static/media/contact-icon.7ea139c3bd60999f25e4.png",
-    "static/media/gmail-contact.png": "/Portafolio-Alejandro-Medina-Manzano/static/media/gmail-contact.a2f2146f929409405da0.png",
-    "static/media/menu-close.png": "/Portafolio-Alejandro-Medina-Manzano/static/media/menu-close.3988bd44ccb57180ffff.png",
-    "index.html": "/Portafolio-Alejandro-Medina-Manzano/index.html",
-    "main.7d713fc2.css.map": "/Portafolio-Alejandro-Medina-Manzano/static/css/main.7d713fc2.css.map",
-    "main.66bfd2a4.js.map": "/Portafolio-Alejandro-Medina-Manzano/static/js/main.66bfd2a4.js.map"
+    "main.css": "/Portafolio-Alejandro-Medina-Manzano/inicio/static/css/main.d0484765.css",
+    "main.js": "/Portafolio-Alejandro-Medina-Manzano/inicio/static/js/main.8c518adb.js",
+    "static/media/github-contact.png": "/Portafolio-Alejandro-Medina-Manzano/inicio/static/media/github-contact.f3d873d71aa989badfd2.png",
+    "static/media/projects-icon.png": "/Portafolio-Alejandro-Medina-Manzano/inicio/static/media/projects-icon.1d135e03df598b40d71d.png",
+    "static/media/portfolio-icon.png": "/Portafolio-Alejandro-Medina-Manzano/inicio/static/media/portfolio-icon.f2b7104e2a967544e1d9.png",
+    "static/media/linkedin-contact.png": "/Portafolio-Alejandro-Medina-Manzano/inicio/static/media/linkedin-contact.1b9851dbcabb60a819e0.png",
+    "static/media/skills-icon.png": "/Portafolio-Alejandro-Medina-Manzano/inicio/static/media/skills-icon.a0fcde07d4b512049540.png",
+    "static/media/contact-icon.png": "/Portafolio-Alejandro-Medina-Manzano/inicio/static/media/contact-icon.7ea139c3bd60999f25e4.png",
+    "static/media/gmail-contact.png": "/Portafolio-Alejandro-Medina-Manzano/inicio/static/media/gmail-contact.a2f2146f929409405da0.png",
+    "static/media/menu-close.png": "/Portafolio-Alejandro-Medina-Manzano/inicio/static/media/menu-close.3988bd44ccb57180ffff.png",
+    "index.html": "/Portafolio-Alejandro-Medina-Manzano/inicio/index.html",
+    "main.d0484765.css.map": "/Portafolio-Alejandro-Medina-Manzano/inicio/static/css/main.d0484765.css.map",
+    "main.8c518adb.js.map": "/Portafolio-Alejandro-Medina-Manzano/inicio/static/js/main.8c518adb.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d713fc2.css",
-    "static/js/main.66bfd2a4.js"
+    "static/css/main.d0484765.css",
+    "static/js/main.8c518adb.js"
   ]
 }
