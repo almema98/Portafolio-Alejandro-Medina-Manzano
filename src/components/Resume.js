@@ -16,7 +16,9 @@ export const Resume = () => {
 					<img src={myResume} className='special-border' alt='cv' />
 				</div>
 
-				<Link to={'https://www.google.es'} className='link-download-resume'>
+				<Link to={'https://drive.google.com/drive/folders/19IbYYDKTky9kDr5kub2ez7j9W8MOsJVD?usp=drive_link'}
+					target='_blank'
+					className='link-download-resume'>
 					<button className='button-resume'>Descargar CV</button>
 				</Link>
 			</section>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router'
+import { Link, useParams } from 'react-router'
 import { projects } from '../data/projects';
 import { Global } from '../helpers/Global';
 
@@ -26,7 +26,8 @@ export const Project = () => {
             
             <p className='description-field'>{project.description}</p>
             
-            <a href={"https://" + project.url} target="_blank" rel='noreferrer'>Ir al proyecto</a>
+            { project.url !== null ? <Link to={"https://" + project.url} target="_blank" rel='noreferrer'>Ir al proyecto</Link> : '' }
+            
         </section>
     )
 }
