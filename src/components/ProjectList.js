@@ -18,7 +18,7 @@ export const ProjectList = ({limit}) => {
 
                         <span>{project.categories}</span>
                         
-                        <h2><Link to={"/proyecto/" + project.id}>{project.name}</Link></h2>
+                        <h2><Link to={Global.routerPath + "/proyecto/" + project.id}>{project.name}</Link></h2>
                         
                         <h3>{project.technologies}</h3>
                     </article>

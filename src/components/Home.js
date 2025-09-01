@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 import { ProjectList } from './ProjectList'
+import { Global } from '../helpers/Global'
 import projectIcon from '../assets/icons/projects-icon.png'
 import myPhoto from '../assets/images/foto_personal.JPG'
 
@@ -21,7 +22,7 @@ export const Home = () => {
 			</div>
 
 			<h2 className='title'>
-				Actualmente estoy abierto a nuevas oportunidades profesionales. <Link to="/contacto">Contacta conmigo</Link>
+				Actualmente estoy abierto a nuevas oportunidades profesionales. <Link to={Global.routerPath + "/contacto"} >Contacta conmigo</Link>
 			</h2>
 
 			<section className='last-works'>
