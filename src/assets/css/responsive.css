@@ -54,6 +54,11 @@
         align-items: center;
         gap: 20px;
     }
+
+    /* PROJECTS */
+    .page-project .mask {
+        height: auto;
+    }
 }
 
 /* Tablets */
