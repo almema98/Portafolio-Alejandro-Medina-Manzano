@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portafolio-Alejandro-Medina-Manzano/static/css/main.5db8a662.css",
+    "main.css": "/Portafolio-Alejandro-Medina-Manzano/static/css/main.b5c26f20.css",
     "main.js": "/Portafolio-Alejandro-Medina-Manzano/static/js/main.9190c66d.js",
     "static/media/curriculum.png": "/Portafolio-Alejandro-Medina-Manzano/static/media/curriculum.0f0e2ff6cfe1c285634d.png",
     "static/media/foto_personal.JPG": "/Portafolio-Alejandro-Medina-Manzano/static/media/foto_personal.c28e314e654048d9b7ed.JPG",
@@ -13,11 +13,11 @@
     "static/media/gmail-contact.png": "/Portafolio-Alejandro-Medina-Manzano/static/media/gmail-contact.a2f2146f929409405da0.png",
     "static/media/menu-close.png": "/Portafolio-Alejandro-Medina-Manzano/static/media/menu-close.3988bd44ccb57180ffff.png",
     "index.html": "/Portafolio-Alejandro-Medina-Manzano/index.html",
-    "main.5db8a662.css.map": "/Portafolio-Alejandro-Medina-Manzano/static/css/main.5db8a662.css.map",
+    "main.b5c26f20.css.map": "/Portafolio-Alejandro-Medina-Manzano/static/css/main.b5c26f20.css.map",
     "main.9190c66d.js.map": "/Portafolio-Alejandro-Medina-Manzano/static/js/main.9190c66d.js.map"
   },
   "entrypoints": [
-    "static/css/main.5db8a662.css",
+    "static/css/main.b5c26f20.css",
     "static/js/main.9190c66d.js"
   ]
 }
