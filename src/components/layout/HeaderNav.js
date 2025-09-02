@@ -1,8 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router'
 import { Global } from '../../helpers/Global'
 
 export const HeaderNav = () => {
+
+    const [checkedState, setCheckedState] = useState(false);
+
+    // Handled method to close the menu list in responsive UI.
+    const closeMenu = () => {
+        setCheckedState(false);
+    }
+
+    // Handle method to change the checkbox value.
+    const handleCheckbox = (e) => {
+        setCheckedState(e.target.checked);
+    }
+
     return (
         <header className='header'>
             <nav className='nav'>
@@ -16,23 +29,23 @@ export const HeaderNav = () => {
                     </figure>
 
                     <label className='nav__toggle'>
-                        <input type='checkbox' id='menu-input' className='nav__input' />
+                        <input type='checkbox' id='menu-input' className='nav__input' checked={checkedState} onChange={handleCheckbox} />
                     </label>
 
                     <ul className='nav__list'>
-                        <li className='nav__item'>
+                        <li className='nav__item' onClick={closeMenu} >
                             <NavLink to={Global.routerPath + '/inicio'} className={({ isActive }) => isActive ? "nav__link active" : "nav__link"}>Inicio</NavLink>
                         </li>
-                        <li className='nav__item'>
+                        <li className='nav__item' onClick={closeMenu} >
                             <NavLink to={Global.routerPath + '/portafolio'} className={({ isActive }) => isActive ? "nav__link active" : "nav__link"}>Portafolio</NavLink>
                         </li>
-                        <li className='nav__item'>
+                        <li className='nav__item' onClick={closeMenu} >
                             <NavLink to={Global.routerPath + '/tecnologias'} className={({ isActive }) => isActive ? "nav__link active" : "nav__link"}>Tecnologías</NavLink>
                         </li>
-                        <li className='nav__item'>
+                        <li className='nav__item' onClick={closeMenu} >
                             <NavLink to={Global.routerPath + '/curriculum'} className={({ isActive }) => isActive ? "nav__link active" : "nav__link"}>Curriculum</NavLink>
                         </li>
-                        <li className='nav__item'>
+                        <li className='nav__item' onClick={closeMenu} >
                             <NavLink to={Global.routerPath + '/contacto'} className={({ isActive }) => isActive ? "nav__link active" : "nav__link"}>Contacto</NavLink>
                         </li>
                     </ul>
