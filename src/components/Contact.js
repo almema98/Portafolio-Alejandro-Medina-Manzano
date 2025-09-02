@@ -16,7 +16,7 @@ export const Contact = () => {
 			<section className='contact'>
 				<div className='description-contact'>
 					<p>
-						Acutalmente me encuentro en búsqueda de mi primera oportunidad profesional en el
+						Actualmente me encuentro en búsqueda de mi primera oportunidad profesional en el
 						ámbito del desarrollo de software. Aunque mi especialización es el desarrollo web,
 						me mantengo abierto a explorar diferentes áreas dentro del sector.
 					</p>
